@@ -49,11 +49,14 @@ h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
 
 p {
   margin: 10px 0px;
-  text-align: justify;            /* tekst links en rechts uitvullen */
+  text-align: justify; 
+  color: #303030;           /* tekst links en rechts uitvullen */
 }
 
 img {
   margin: 10px 0px;
+  width: 10px;
+  height: 200px;
 }
 
 /* Indeling voor hoofd pagina */
@@ -68,6 +71,7 @@ img {
 .item-tekst {
   float:right;
   width: 450px;
+  color: #303030;
 }
 
 /* Indeling voor sub pagina */
@@ -75,7 +79,7 @@ img {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: skyblue;
+      color: black;
 }
 
 .smalltext {
@@ -120,5 +124,5 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: red;
 }
