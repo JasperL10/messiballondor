@@ -36,7 +36,8 @@ div {                             /* geldt voor div */
 }
 
 header, footer {                  /* geldt voor header en footer */
-  margin: 10px 0px;
+  margin: 10px 10px;
+  margin-top: 10px;
 }
 
 main {                       
