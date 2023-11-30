@@ -59,7 +59,7 @@ img {
   width: 10px;
   height: 200px;
   border:ridge 4px red ;
-}
+  }
 
 /* Indeling voor hoofd pagina */
 
@@ -68,10 +68,8 @@ img {
 .item-plaatje {
   float:left;
   width:250px;
-
-  
-  
 }
+
 .item-tekst {
   float: right;
   width: 450px;
@@ -113,6 +111,7 @@ nav ul {
     z-index: 1;
     left: 1600px;
     position: absolute;
+    border: ridge red;
 }
 
 nav ul li {
@@ -187,7 +186,46 @@ nav li a.active {
   height: 100%; 
   opacity: 0.2;
   /*20% opacity*/ 
-  background-image: url('afbeeldingen/nice.jpeg') ;
+  background-image: url('afbeeldingen/geertruida.jpeg') ;
   background-size: cover;
   background-position: center; 
+}
+
+.item-plaatje1 {
+  float:right;
+  width:250px;
+}
+
+.item-tekst1 {
+  float: left;
+  width: 450px;
+  color: #303030;
+  padding-right: 10px; 
+}
+
+.item-tekst-f {
+  float: right;
+  width: 450px;
+  color: #303030;
+  padding-left: 20px; /* zorgt dat plaatje niet tegen tekst komt */
+}
+
+.item-tekst2 {
+  width: 450px;
+  color: #303030;
+  padding-right: 10px; 
+}
+
+.item-tekst-t {
+  float: right;
+  width: 450px;
+  color: #303030;
+  padding-left: 10px; /* zorgt dat plaatje niet tegen tekst komt */
+}
+
+.item-tekst-q {
+  float: right;
+  width: 450px;
+  color: #303030;
+  padding-left: 10px; 
 }
